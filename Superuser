@@ -1,0 +1,30 @@
+#!/bin/bash
+sudo apt update
+sudo apt install default-jdk
+sudo groupadd tomcat
+sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+curl -O https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz
+sudo mkdir /opt/tomcat
+sudo tar xzvf apache-tomcat-*tar.gz -C /opt/tomcat --strip-components=1#!/bin/bash
+
+sudo ip netns add host1
+sudo ip netns add host2
+
+sudo ip netns exec host1 sudo ip link  set lo up
+sudo ip netns exec host2 sudo ip link  set lo up
+
+sudo ip link add br0 type bridge
+sudo ip link set br0 uphttps://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz################################################################################
+#
+# sudo
+#
+################################################################################
+
+SUDO_VERSION = 1.8.21p2#!/bin/bash
+sudo apt update
+sudo apt install default-jdk
+sudo groupadd tomcat
+sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+curl -O https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz
+sudo mkdir /opt/tomcat
+sudo tar xzvf apache-tomcat-*tar.gz -C /opt/tomcat --strip-components=1https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz
